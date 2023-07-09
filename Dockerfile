@@ -1,4 +1,5 @@
 FROM ubuntu:20.04
+ENV PORT=5001
 RUN   apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -q -y wget \
     texlive-full \
     python3 \
